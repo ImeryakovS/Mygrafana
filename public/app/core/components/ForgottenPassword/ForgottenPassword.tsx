@@ -40,7 +40,7 @@ export const ForgottenPassword = () => {
 
   if (emailSent) {
     return (
-      <div data-custom-locator="success-send-email">
+      <div>
         <p>
           <Trans i18nKey="forgot-password.email-sent">
             An email with a reset link has been sent to the email address. You should receive it shortly.
